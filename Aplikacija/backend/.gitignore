@@ -1,0 +1,68 @@
+# .NET
+obj/Debug/net8.0/WebTemplate.AssemblyInfo.cs
+
+*.obj
+*.bin
+*.exe
+*.pdb
+*.user
+*.dll
+*.log
+*.vscode
+*.vs
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+test/test.txt
+
+.env
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.idea
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference 
+*/packages/
+# except build/, which is used as an MSBuild target.
+#!/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!/packages/repositories.config
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+appsettings.Development.json
+appsettings.json
+
+obj/Debug/net8.0/WebTemplate.AssemblyInfo.cs
+obj/Debug/net8.0/WebTemplate.AssemblyInfoInputs.cache
+
+/wwwroot

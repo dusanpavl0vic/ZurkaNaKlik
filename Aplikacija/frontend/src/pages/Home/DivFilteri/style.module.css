@@ -1,0 +1,110 @@
+.DivZaPretragu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: var(--borderRadiusBig);
+  padding: 16px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.DugmeFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 0px;
+  gap: 10px;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.JosFiltera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+ 
+
+  gap: 6px;
+  padding-left: 20px;
+}
+
+.JosFiltera > P {
+  font-size: 15px;
+  display: flex;
+  
+}
+
+.JosFiltera > img {
+  display: flex;
+  padding: 10px;
+}
+
+.CenaVelikiDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.CenaOd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.CenaOd > input {
+  height: 30px;
+  border-radius: var(--borderRadiusSmall);
+  background-color: white;
+  border: none;
+  padding: 10px;
+  outline: none;
+  max-width: 120px;
+  outline: 1px solid var(--lightText)
+}
+
+.CenaOd > input:focus {
+  outline: 1px solid var(--mainColor);
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide the up and down arrows for input[type=number] in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.Tip{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding:16px;
+}
+.JedanChk {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 50%;
+}
+
+.TipContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popoverContent{
+  
+}
+
+.calendar{
+  background-color: black;
+}

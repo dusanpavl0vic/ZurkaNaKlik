@@ -1,0 +1,31 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.pageNumberContainer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+
+.pageNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid var(--lightText);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--mainColor);
+  color: white;
+  cursor: default;
+}

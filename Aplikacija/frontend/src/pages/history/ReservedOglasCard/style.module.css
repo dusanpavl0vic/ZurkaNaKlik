@@ -1,0 +1,72 @@
+.Wrapper{
+    margin-bottom: 80px;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: var(--borderRadiusMedium);
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+  margin: auto;
+}
+
+.agencyOglasContainer {
+  display: flex;
+  align-items: end;
+  gap: 100px;
+}
+
+.oglas {
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  border-radius: var(--borderRadiusMedium);
+}
+
+.agency {
+  text-align: center;
+}
+
+.agencyOglasContainer h3 {
+  margin-top: 15px;
+}
+
+.avatarContainer {
+  width: fit-content;
+  margin: auto;
+}
+
+.oglas img {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--borderRadiusMedium);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-inline: 20px;
+  padding-left: 20px;
+  border-left: 2px dashed var(--lightText);
+}
+
+.Actions {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "downlevelIteration": true,
+    "useDefineForClassFields": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* my */
+    "incremental": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // "baseUrl": "./src",
+    //  "paths": {
+    //   "@/*": ["*"],
+    // }
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+
+  },
+  "include": ["src/**/*/*", "typings"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

@@ -1,0 +1,54 @@
+.backgroundImage {
+  display: flex;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("/images/catering-walpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.filtersWrapper {
+
+  position: relative;
+  max-width: 60%;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.content > h2 {
+  margin-block: 10px;
+}
+
+.filtersContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: var(--borderRadiusBig);
+  width: fit-content;
+  padding: 30px;
+  margin: auto;
+}
+
+.filters {
+    display: flex;
+    gap: 30px;
+}
+
+.mogucnostDostave{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 15px;
+}

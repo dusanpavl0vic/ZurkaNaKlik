@@ -1,0 +1,53 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: var(--borderRadiusMedium);
+  box-shadow: var(--boxShadowSoft);
+  width: 60%;
+  height: 150px;
+  margin-block: 30px;
+}
+
+.MenyPicture {
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--borderRadiusMedium);
+}
+
+.picture {
+  border-radius: var(--borderRadiusMedium);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MenyTxt {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: top;
+  align-items: top;
+  margin: 20px;
+  width: 100%;
+}
+
+.dialogPictureContainer {
+  width: 100%;
+  height: 200px;
+}
+
+.selectOglasOption {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectOglasOption > p {
+  font-size: 16px;
+}
+
+.nazivMenija {
+  margin-bottom: 20px;
+}

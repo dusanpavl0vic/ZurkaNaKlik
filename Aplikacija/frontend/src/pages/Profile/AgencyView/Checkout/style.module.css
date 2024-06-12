@@ -1,0 +1,92 @@
+.checkoutContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: var(--borderRadiusBig) 0 0 var(--borderRadiusBig);
+  right: 0;
+  top: 50%;
+  background-color: white;
+  box-shadow: var(--boxShadowSoft);
+  transform: translate(85%, -50%);
+  transition: all 300ms ease-in-out;
+}
+
+.checkoutContainer:hover{
+  transform: translate(0, -50%) ;
+  transition: all 200ms ease-in-out;
+}
+
+.displayedCheckout {
+  transform: translate(0, -50%) !important;
+  transition: all 300ms ease-in-out;
+}
+
+.oglasCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--borderRadiusMedium);
+  box-shadow: var(--boxShadowSoft);
+  min-width: 300px;
+  margin-top: 20px;
+}
+
+.unselectedOglasCard {
+  height: 80px;
+  justify-content: center;
+}
+
+.oglasCard > img {
+  width: 100px;
+  height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: var(--borderRadiusMedium);
+}
+
+.oglasCardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-block: 25px;
+  width: 100%;
+}
+
+.menuCard {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 16px;
+  background-color: white;
+  border-radius: var(--borderRadiusSmall);
+  box-shadow: var(--boxShadowSoft);
+  color: var(--lightText);
+}
+
+.iconPrice {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.bottomContainer {
+  width: 100%;
+  border-top: 2px dashed black;
+  display: flex;
+  flex-direction: column;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-block: 10px;
+}

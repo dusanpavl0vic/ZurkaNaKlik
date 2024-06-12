@@ -1,0 +1,179 @@
+.Glavni {
+  display: flex;
+  flex-direction: column;
+}
+
+.PodeliteOmiljeno {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.Podelite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.Informacije {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.InformacijeKolona {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+.PrvaKocka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.PrvaKocka > div {
+  display: flex;
+  margin-block: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.PrvaKocka > div > h1 {
+  text-align: left;
+}
+
+.ocena {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ikonicaOcene {
+    color: var(--golden);
+}
+
+.OsobeKrevetKupatilo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Osobe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin-right: 0;
+}
+
+.InfoOVlasniku {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 3px solid var(--lightText);
+  border-bottom: 3px solid var(--lightText);
+  margin-block: 30px;
+}
+.Avatar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap:10px;
+}
+
+.Avatar > h2 {
+  margin-block: 10px;
+}
+
+
+.Kontakt {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.Kontakt > h4 {
+    margin-bottom: 5px;
+}
+
+.RedKontakt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid var(--lightText);
+  padding-block: 10px;
+}
+
+.DodajteKetering {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: var(--borderRadiusMedium);
+  width: 60%;
+  align-items: center;
+  padding: 15px;
+}
+
+.Calendar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: var(--borderRadiusMedium);
+  width: 60%;
+  align-items: center;
+  padding: 15px;
+  padding-bottom: 50px;
+  margin-block: 20px;
+}
+
+.Calendar > h4{
+  margin-bottom: 10px;
+}
+
+.DodajteKetering > h4 {
+  padding-bottom: 5px;
+  height: 20%;
+}
+
+.DodajteKetering > div {
+  width: 200px;
+}
+
+.Opremljenost {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.JedanChk {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 50%;
+}
+
+.OpremljenostDIV {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

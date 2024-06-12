@@ -1,0 +1,80 @@
+.ImageContainer {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.Image {
+  cursor: pointer;
+  width: 100%;
+  height: 600px;
+  border-radius: var(--borderRadiusBig);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tipoviProslavaOverlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid var(--lightText);
+  border-radius: 100px;
+  box-shadow: var(--boxShadowSoft);
+}
+
+.tipoviProslavaOverlay > p {
+  font-size: 16px !important;
+}
+
+.fullscreenContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(10, 10, 10, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+.Controller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  height: 70%;
+  background-color: rgba(10, 10, 10, 0.1);
+  border-radius: var(--borderRadiusMedium);
+  transition: all 150ms;
+}
+
+.Controller:hover {
+  cursor: pointer;
+  background-color: rgba(10, 10, 10, 0.4);
+  transition: all 150ms;
+}
+
+.hugeImage {
+  width: 70%;
+  height: 70%;
+  border-radius: var(--borderRadiusBig);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.clickOffTarget {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

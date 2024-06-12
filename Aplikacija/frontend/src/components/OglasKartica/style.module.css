@@ -1,0 +1,91 @@
+.GlavniDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    border-radius: 20px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.SlikaKartica{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.TipOmiljeno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 16px;
+ 
+}
+
+/* div za tip proslave */
+.TipOmiljeno > div{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--lightText);
+    border-radius: 40px;
+    height: 35px;
+    padding: 8px;
+}
+
+.TipOmiljeno > div > p {
+    font-size: 16px;
+}
+
+.TipOmiljeno>img{
+    width: 20px;
+}
+
+.ViseInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.ViseInfoTekst{
+    display: flex;
+    flex-direction: column;
+}
+
+.ImeOcena{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 16px;
+}
+
+.CenaBrojLokacija{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 16px;
+}
+
+.Ocena{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Opis{
+    max-height: 300px;
+    padding: 16px;
+}
+
+.BottomIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

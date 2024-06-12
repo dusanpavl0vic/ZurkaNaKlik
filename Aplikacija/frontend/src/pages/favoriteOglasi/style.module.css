@@ -1,0 +1,28 @@
+.Glavni{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 20px;
+}
+.Div222{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.TxtDiv{
+    display: flex;
+    width:350px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+.OmiljeniOglasi{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}

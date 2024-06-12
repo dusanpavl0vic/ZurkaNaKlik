@@ -1,0 +1,194 @@
+.Glavni {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  padding-left: 10px;
+  height: 70%;
+  padding: 20px;
+}
+
+.Gore {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+
+.Heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.HeadingText{
+    width: 40%;
+}
+
+.AvatarText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 10px;
+}
+
+.DodatneInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.TxtArea {
+  width: 600px;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  padding-inline: 16px;
+}
+
+.Inputsredi {
+  padding: 10px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Dole {
+  display: flex;
+  flex-direction: column;
+}
+
+.DodajKategorije {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 10px;
+}
+
+.DodajMenije {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.InputiOpisPlusic {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Kocka {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Red {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 100%;
+}
+
+.Red > Input {
+  padding: 5px;
+}
+
+.TxtAreaMeny {
+  width: 500px;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid var(--lightText);
+  border-radius: var(--borderRadiusMedium);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.SacuvajDugme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 500px;
+}
+
+.NAJJACEDUGME {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.Kategorije {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menijji {
+  display: flex;
+  flex-direction: column;
+}
+
+.TxtAreaPostojeciMeni{
+  border: none !important;
+  box-shadow: var(--boxShadowSoft);
+}
+
+.newMenu {
+  display: flex;
+  width: 100%;
+  margin-block: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-inline: 20px;
+}
+
+.MenuTxt {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid var(--lightText);
+  border-radius: var(--borderRadiusMedium);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  padding: 20px;
+}
+
+.choseImage {
+  width: 250px;
+  height: 100%;
+  border-radius: var(--borderRadiusMedium);
+}
+
+.choseImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--borderRadiusMedium);
+}

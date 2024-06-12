@@ -1,0 +1,12 @@
+
+.Container {
+    padding: 30px;
+    border-radius: var(--borderRadiusBig);
+    background-color: white;
+}
+
+.cardsContainer {
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-block: 50px;
+}

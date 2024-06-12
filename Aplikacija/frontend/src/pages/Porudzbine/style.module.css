@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: var(--borderRadiusBig);
+  padding: 30px;
+}
+
+.OdobrenePorudzbine {
+  display: flex;
+  flex-direction: column;
+}
+
+.OdobrenePorudzbine > h3 {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.listPorudzbine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}

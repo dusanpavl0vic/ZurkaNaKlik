@@ -1,0 +1,96 @@
+.actionsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 70%;
+  margin-inline: auto;
+  margin-bottom: 100px;
+}
+
+.actionsContainer {
+  display: flex;
+  background-color: white;
+  border-radius: var(--borderRadiusBig);
+}
+
+.actionsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actionsContainer img {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  height: 450px;
+}
+
+.imgLeft {
+  border-radius: var(--borderRadiusBig) 0 0 var(--borderRadiusBig);
+}
+
+.imgRight {
+  border-radius: 0 var(--borderRadiusBig) var(--borderRadiusBig) 0;
+}
+
+.actionsContent {
+  margin: 40px;
+}
+
+.actionsContainer p {
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+/* breakout */
+
+.breakOutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    width: 100%;
+    background-color: white;
+    padding-block: 70px;
+    margin-bottom: 150px;
+}
+
+.breakOutElement{
+    color: var(--lightText);
+    text-align: right;
+}
+
+.breakOutElement h1{
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+}
+
+.breakOutElement h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* tabs */
+
+.tabsButtonsContainer {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.tabsButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  background-color: #efefef;
+}

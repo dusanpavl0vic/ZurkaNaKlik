@@ -1,0 +1,62 @@
+### GIT
+git add .               | dodaje sve lokalne promene, sprema ih za lokalni kommit
+git add nekiFajl.txt    | dodaje odredjen fajl ili folder, sprema ga za lokalni komit
+git reset               | uklanja sve lokalne promene sa lokalnog komita, undo za git add .
+git status              | ispisuje koji fajlovi ce biti komitovani
+git commit -m "poruka"  | komituje promene lokalno
+git revert              | undo za commit
+git log                 | ispisuje sve globalne promene, pushovane na repo
+git reflog              | ispisuje sve lokalne promene, svi tvoji komitovi i komitovi koji su u repo
+git pull                | preuzima poslednje promene sa repo-a
+git push                | postavlja poslednje promene na repo
+git diff                | ispisuje promene na jednom ili vise fajlova, vidis linije koje su dodate/izbrisane/izmenjene
+
+# git advanced
+git stash               | stavlja tvoje promene na stash, korisno ako zelis da odes na stariji neki komit
+git pop                 | preuzima tvoje promene sa stash-a, ako se vracas sa komita
+git stash list          | ispisuje sadrzaj stash-a
+git stash drop          | brise sa stash-a
+git commit --ammend     | dodaje jos neki fajl na zadnji komit, ako si zaboravio neki od fajla da dodas sa git add 
+git fetch               | preuzima promene ali ih ne spaja sa tvojom granom, ako zelis da vidis sta je promenjeno na repo
+git merge               | spaja grane
+git branch              | pravi novu granu
+git checkout            | prelazi na novu granu
+git rm --cached		| brise fajl iz repo
+
+
+### DOTNET
+dotnet clean
+dotnet restore
+dotnet build
+
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+sqllocaldb info
+sqllocaldb info NazivInstance
+sqllocaldb create Instanca -s	// s startuje instancu po kreiranju
+sqllocaldb delete Instanca 	// Brisanje
+sqllocaldb start Instanca
+
+dotnet tool install dotnet-ef -g //instalacija entity frameworka
+dotnet tool update dotnet-ef -g
+
+dotnet ef migrations add V1 //pravljenje migracije
+dotnet ef database update //nakon kreiranja migracije update baza
+
+dotnet ef database drop
+dotnet ef migrations remove
+
+
+
+bearer "token"
+
+
+za konverziju slika
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Formats.Jpeg;
+using SixLabors.ImageSharp.Processing;
+
+dotnet add package SixLabors.ImageSharp
+

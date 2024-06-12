@@ -1,0 +1,15 @@
+global using Microsoft.EntityFrameworkCore;
+global using WebTemplate.Models;
+global using Microsoft.AspNetCore.Mvc;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using System;
+global using System.Collections.Generic;
+global using System.Diagnostics;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using Microsoft.Extensions.Logging;
+global using backend.Models;
+global using backend.Enum;
+global using Microsoft.EntityFrameworkCore.Metadata.Internal;
+global using Microsoft.AspNetCore.Authorization;

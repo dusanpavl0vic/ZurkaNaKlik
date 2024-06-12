@@ -1,0 +1,116 @@
+.Glavni {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+
+  padding-bottom: 60px;
+}
+
+.Heading {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.Txt {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+}
+
+.TxtDodaj {
+  max-width: 500px;
+}
+
+.DeleteIcon {
+  background-color: var(--delete);
+  color: white;
+  margin: 16px;
+  padding: 14px;
+  border-radius: var(--borderRadiusSmall);
+  cursor: pointer;
+  transition: all 250ms;
+}
+
+.DeleteIcon:hover {
+  background-color: var(--deleteHover);
+  transition: all 250ms;
+}
+
+.NAJJACEDUGME {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.DodajSLikuDugme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 250px;
+}
+
+.OpisiProstora {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.TxtArea {
+  width: 100%;
+  height: 800px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  display: flex;
+}
+
+.KolonaTxtArea {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-direction: column;
+  width: 50%;
+}
+
+.TipoviProslava {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ChipProslave {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.JedanChip {
+  min-width: 150px;
+}
+
+.dodajOglasDugme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 450px;
+}
+
+.addIcon {
+  color: var(--lightText);
+}
+
+.addIcon:hover {
+  color: var(--mediumText);
+}

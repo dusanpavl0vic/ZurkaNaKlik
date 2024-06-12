@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: none;
+  border-radius: var(--borderRadiusBig);
+  padding: 60px;
+  margin-top: 70px;
+  justify-content: space-between;
+  max-width: 1200px !important;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.text p {
+  font-size: 22px;
+  max-width: 400px;
+  color: var(--lightText);
+}
+
+.image {
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    flex-direction: column;
+    width: fit-content !important;
+    gap: 60px;
+  }
+}

@@ -1,0 +1,20 @@
+.resultsWrapper{
+  width: 90%;
+  margin: 50px auto;
+
+}
+
+.resultsTop {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.resultsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+  margin: 0;
+}

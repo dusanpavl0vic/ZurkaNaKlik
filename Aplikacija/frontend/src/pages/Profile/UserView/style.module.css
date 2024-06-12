@@ -1,0 +1,153 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.PostavkeProfila {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.PostavkeProfilaTXT {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.Postavke2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.KarticaSaSlikom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 30px;
+  width: 40%;
+  max-height: 500px;
+  box-shadow: var(--boxShadowSoft);
+}
+
+.SlikaImeIPrezime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px
+}
+
+.InfoOClanu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.InfoOClanu > p {
+  padding: 0px;
+  margin: 5px;
+}
+
+.OsnovnePostavkeProfila {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+  width: 80%;
+  box-shadow: var(--boxShadowSoft);
+}
+
+.Inputi {
+  display: flex;
+  flex-direction: column;
+}
+
+.Red {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.TxtArea {
+  width: 700px;
+  height: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TekstArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.Dugmenajjace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.Dugme2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.MojiOglasi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.OglasiKartice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.DeleteIcon {
+  display: flex;
+  background-color: var(--delete);
+  color: white;
+  margin: 16px;
+  padding: 14px;
+  border-radius: var(--borderRadiusSmall);
+  cursor: pointer;
+  transition: all 250ms;
+  height: 40px;
+  align-items: center;
+}
+
+.DeleteIcon:hover {
+  background-color: var(--deleteHover);
+  transition: all 250ms;
+}
+.obrrrisibhrate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 30px;
+}

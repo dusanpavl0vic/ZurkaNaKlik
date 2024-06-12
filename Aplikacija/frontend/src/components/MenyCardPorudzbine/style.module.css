@@ -1,0 +1,73 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: var(--borderRadiusMedium);
+  box-shadow: var(--boxShadowSoft);
+  width: 100%;
+}
+
+.MenyPicture {
+  border-radius: var(--borderRadiusMedium);
+  max-width: 300px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.MenyPicture > img {
+  border-radius: var(--borderRadiusMedium);
+  height: 100%;
+  width: auto;
+  background-size: cover;
+}
+
+.MenyTxt {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+
+.MenyTxt > h3 {
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.MenyTxt > p {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.InfoOglas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.acceptDecline {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.ButtonParentDiv {
+  width: 100%;
+  gap: 5px;
+}
+
+.DisplayMenyInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  width: 100%;
+}
